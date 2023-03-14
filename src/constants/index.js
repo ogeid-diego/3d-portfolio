@@ -148,7 +148,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "I.T Analyst",
+    title: "I.T. Analyst",
     company_name: "CIAMA",
     icon: am,
     iconBg: "#383E56",
@@ -198,7 +198,7 @@ const experiencesBr = [
     points: [
       "Desenvolvendo e mantendo aplicações WEB usando ReactJS e outras tecnologias relacionadas.",
       "Colaborando com times e profissionais multifuncionais como designer, gerentes de produtos e outros desenvolvedores para criar produtos de alta qualidade.",
-      "Implementing responsive design and ensuring cross-browser compatibility. Implementando designs responsivos e assegurando compatibilidade de navegadores.",
+      "Implementando designs responsivos e assegurando compatibilidade de navegadores.",
       "Participação em revisões de código e provendo feedbacks construtivos para outros desenvolvedores.",
     ],
   }
