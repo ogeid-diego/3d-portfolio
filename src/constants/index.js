@@ -1,5 +1,5 @@
 import {
-  mobile,
+  icon3d,
   web,
   javascript,
   html,
@@ -16,6 +16,7 @@ import {
   ant,
   bootstrap,
   organo,
+  mobile,typescript, jobSearcher
 } from "../../public/assets";
 
 export const navLinks = [
@@ -83,11 +84,15 @@ const aboutBr = [
 const services = [
   {
     title: "3D",
-    icon: mobile,
+    icon: icon3d,
   },
   {
     title: "Front-End",
     icon: web,
+  },
+  {
+    title: "Mobile",
+    icon: mobile
   }
 ];
 
@@ -104,10 +109,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  /* {
+  {
     name: "TypeScript",
     icon: typescript,
-  }, */
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -278,6 +283,23 @@ const projects = [
     image: confidential,
     source_code_link: null,
   },
+  {
+    name: "JobSearcher",
+    description:
+      "Mobile App that helps you to find a job that fits with your skills. A training project using React-Native",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobSearcher,
+    source_code_link: "https://github.com/ogeid-diego/JobSearcher",
+  },
 ];
 
 const projectsBr = [
@@ -339,6 +361,23 @@ const projectsBr = [
     ],
     image: confidential,
     source_code_link: null,
+  },
+  {
+    name: "JobSearcher",
+    description:
+      "Aplicação Mobile que ajuda a encontrar um trabalho que se encaixe em suas habilidades. Um projeto de treino usando react-native",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobSearcher,
+    source_code_link: "https://github.com/ogeid-diego/JobSearcher",
   },
 ];
 

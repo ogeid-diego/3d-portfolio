@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import mobile from "./mobile.png";
+import icon3d from "./icon3d.png";
 import web from "./web.png";
 import github from "./github.png";
 import css from "./tech/css.png";
@@ -18,10 +18,12 @@ import am from "./company/am.png"
 import organo from "./organo.png"
 import confidential from "./confidential.png"
 import solarsystem from "./solarsystem.png"
+import mobile from "./mobile.png"
+import jobSearcher from "./jobSearcher.png"
 
 export {
   logo,
-  mobile,
+  icon3d,
   web,
   github,
   css,
@@ -39,5 +41,7 @@ export {
   am,
   ant,
   bootstrap,
-  solarsystem
+  solarsystem,
+  mobile,
+  jobSearcher
 };
